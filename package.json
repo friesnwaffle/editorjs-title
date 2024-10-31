@@ -1,0 +1,26 @@
+{
+  "name": "editorjs-title",
+  "version": "1.0.0",
+  "description": "A Title plugin for Editor.js",
+  "main": "dist/Title.js",
+  "types": "dist/Title.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "editorjs": "^latest",
+    "slugify": "^latest"
+  },
+  "devDependencies": {
+    "typescript": "^latest",
+    "@types/editorjs": "^latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/friesnwaffle/editorjs-title.git"
+  },
+  "keywords": ["editorjs", "plugin", "title"],
+  "author": "FriesnWaffle",
+  "license": "MIT"
+}

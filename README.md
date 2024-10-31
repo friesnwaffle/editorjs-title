@@ -1,0 +1,1 @@
+Title plugin for Editor.js
